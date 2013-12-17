@@ -101,7 +101,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)sizeValueChanged:(MySlider *)sender {
+- (IBAction)sliderValueChanged:(MySlider *)sender {
     
     [filter setValue:@(sender.value) forKey:sender.attributeKey];
 
