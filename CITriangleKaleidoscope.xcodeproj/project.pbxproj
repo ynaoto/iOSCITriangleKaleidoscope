@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932B757418681D9D007349A8 /* LabeledSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 932B757318681D9D007349A8 /* LabeledSlider.m */; };
 		93301970185DFCB20078F58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9330196F185DFCB20078F58C /* Foundation.framework */; };
 		93301972185DFCB20078F58C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93301971185DFCB20078F58C /* CoreGraphics.framework */; };
 		93301974185DFCB20078F58C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93301973185DFCB20078F58C /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		932B757218681D9D007349A8 /* LabeledSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabeledSlider.h; sourceTree = "<group>"; };
+		932B757318681D9D007349A8 /* LabeledSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabeledSlider.m; sourceTree = "<group>"; };
 		9330196C185DFCB20078F58C /* CITriangleKaleidoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CITriangleKaleidoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9330196F185DFCB20078F58C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93301971185DFCB20078F58C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				93301981185DFCB20078F58C /* Main.storyboard */,
 				93301984185DFCB20078F58C /* ViewController.h */,
 				93301985185DFCB20078F58C /* ViewController.m */,
+				932B757218681D9D007349A8 /* LabeledSlider.h */,
+				932B757318681D9D007349A8 /* LabeledSlider.m */,
 				93301987185DFCB20078F58C /* Images.xcassets */,
 				93301976185DFCB20078F58C /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			files = (
 				93301986185DFCB20078F58C /* ViewController.m in Sources */,
 				93301980185DFCB20078F58C /* AppDelegate.m in Sources */,
+				932B757418681D9D007349A8 /* LabeledSlider.m in Sources */,
 				9330197C185DFCB20078F58C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +470,7 @@
 				933019A0185DFCB20078F58C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		933019A1185DFCB20078F58C /* Build configuration list for PBXNativeTarget "CITriangleKaleidoscopeTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				933019A3185DFCB20078F58C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
